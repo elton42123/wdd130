@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
+  <meta charset="UTF-8">
+  <meta name="description" content="Learn about Whitewater Rafting Co., our history, and the 
+  adventures we offer. Join us for an unforgettable rafting experience!">
+  <meta name="keywords" content="Whitewater Rafting, Rafting Adventures, River Trips, Outdoor 
+  Activities, Adventure Sports">
   <meta name="author" content="Isabirye Elton">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>About Us | WHITEWATER RAFTING</title>
@@ -14,11 +18,14 @@
 <body>
   <header>
     <img src="images/logo.jpg" alt="Whitewater Rafting Site Logo" />
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="about.html">About Us</a>
-      <a href="trips.html">Trips</a>
-      <a href="contact.html">Contact Us</a>
+    
+    <nav aria-label="Main Navigation">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="trips.html">Trips</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
     </nav>
   </header>
 
@@ -27,30 +34,54 @@
       <img src="images/hero.jpg" alt="Rafting Adventure" />
       <h1>Whitewater Rafting Co.</h1>
       <article>
-        <img src="images/guide.jpg" alt="Raft Guide" />
+        <h2>Meet Our Guides</h2>
+        <img src="images/guide.jpg" alt="Raft Guide">
         <p>Our guides are trained professionals who ensure your rafting trip is safe and thrilling!</p>
       </article>
-    </div>
+    </div>   
 
-    <section>
-      <h2>History</h2>
-      <p>Founded in 1995, Whitewater Rafting Co. has taken thousands of adventurers down the river in pursuit of adrenaline and nature.</p>
+    <section class="history-section">
+      <h2 class="history">History</h2>
+      <div class="history-content">
+        <p>
+          Founded in 2010, our rafting company began with a passion for adventure and a love for the outdoors. What started as a small group of guides offering river tours has grown into one of the most trusted rafting experiences in the region. Over the years, we have taken thousands of guests on unforgettable journeys down scenic rivers, always prioritizing safety, fun, and a deep respect for nature.
+        </p>
+        <img src="images/history.jpg" alt="History of Whitewater Rafting" />
+        <p>
+          In 2012, whitewater rafting started gaining popularity as a recreational sport. Commercial rafting companies began to appear, offering guided trips through some of the most exciting river rapids in the world. Over time, improved raft designs, better safety gear, and increased interest in outdoor adventure made rafting a popular activity for thrill-seekers and nature lovers alike.
+        </p>
+      </div>
     </section>
 
-    <section>
-      <h2>Adventure Awaits You!</h2>
-      <div class="adventure-images">
-        <img src="images/adv1.jpg" alt="Adventure 1" />
-        <img src="images/adv2.jpg" alt="Adventure 2" />
-        <img src="images/adv3.jpg" alt="Adventure 3" />
-        <img src="images/adv4.jpg" alt="Adventure 4" />
-        <img src="images/adv5.jpg" alt="Adventure 5" />
+    <section class="adventure-awaits">
+      <h2 class="adventure">Adventure Awaits You!</h2>
+      <div class="adventure-gallery">
+        <figure>
+          <img src="images/adv1.jpg" alt="Whitewater Rafting Rapids">
+          <figcaption>Whitewater Rapids</figcaption>
+        </figure>
+        <figure>
+          <img src="images/adv2.jpg" alt="Family Rafting Fun">
+          <figcaption>Scenic Views</figcaption>
+        </figure>
+        <figure>
+          <img src="images/adv3.jpg" alt="Scenic River Views">
+          <figcaption>Team Adventures</figcaption>
+        </figure>
+        <figure>
+          <img src="images/adv4.jpg" alt="Team Adventure">
+          <figcaption>Sunset Rafting</figcaption>
+        </figure>
+        <figure>
+          <img src="images/adv5.jpg" alt="Sunset Rafting">
+          <figcaption>Thrilling Rapids</figcaption>
+        </figure>
       </div>
     </section>
   </main>
 
   <footer>
-  <p>&copy; 2025 Whitewater Rafting Company | Isabirye. Elton</p>
+  <p>&copy; 2025 🌊 Whitewater Rafting Company. All Right Reserved 🌊 | Isabirye. Elton</p>
   <div class="socialmedia">
     <a href="https://facebook.com">
       <img src="images/facebook.svg" alt="Facebook">
@@ -60,12 +91,6 @@
     </a>
     <a href="https://instagram.com">
       <img src="images/instagram.svg" alt="Instagram">
-    </a>
-    <a href="https://github.com">
-      <img src="images/github.svg" alt="GitHub">
-    </a>
-    <a href="https://reddit.com">
-      <img src="images/reddit.svg" alt="Reddit">
     </a>
   </div>
 </footer>

@@ -2,107 +2,164 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="description" content="Learn about Whitewater Rafting Co., our history, and the 
-  adventures we offer. Join us for an unforgettable rafting experience!">
-  <meta name="keywords" content="Whitewater Rafting, Rafting Adventures, River Trips, Outdoor 
-  Activities, Adventure Sports">
+  <meta name="description" content="Explore our exciting whitewater rafting trips and packages. Find the perfect adventure for you and your group!">
   <meta name="author" content="Isabirye Elton">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>About Us | WHITEWATER RAFTING</title>
+  <title>Trips | WHITEWATER RAFTING</title>
   <link rel="stylesheet" href="styles/rafting.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400&family=Roboto:wght@400;700&family=Oswald:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
   <header>
-    <img src="images/logo.jpg" alt="Whitewater Rafting Site Logo" />
-    
-    <nav aria-label="Main Navigation">
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About Us</a></li>
-        <li><a href="trips.html">Trips</a></li>
-        <li><a href="contact.html">Contact Us</a></li>
-      </ul>
+    <img src="images/logo.jpg" alt="Whitewater Rafting Site Logo" class="logo" />
+    <nav aria-label="Main navigation">
+      <a href="index.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="trips.html">Trips</a>
+      <a href="contact.html">Contact Us</a>
     </nav>
   </header>
 
   <main>
-    <div class="hero">
-      <img src="images/hero.jpg" alt="Rafting Adventure" />
-      <h1>Whitewater Rafting Co.</h1>
-      <article>
-        <h2>Meet Our Guides</h2>
-        <img src="images/guide.jpg" alt="Raft Guide">
-        <p>Our guides are trained professionals who ensure your rafting trip is safe and thrilling!</p>
-      </article>
-    </div>   
+    <!-- Call to Action -->
+    <section class="trips-cta">
+      <h1>Choose Your Adventure!</h1>
+      <p>Ready for the thrill of a lifetime? <a href="contact.html" class="cta-btn">Contact Us</a> to book your trip or ask questions!</p>
+    </section>
 
-    <section class="history-section">
-      <h2 class="history">History</h2>
-      <div class="history-content">
-        <p>
-          Founded in 2010, our rafting company began with a passion for adventure and a love for the outdoors. What started as a small group of guides offering river tours has grown into one of the most trusted rafting experiences in the region. Over the years, we have taken thousands of guests on unforgettable journeys down scenic rivers, always prioritizing safety, fun, and a deep respect for nature.
-        </p>
-        <img src="images/history.jpg" alt="History of Whitewater Rafting" />
-        <p>
-          In 2012, whitewater rafting started gaining popularity as a recreational sport. Commercial rafting companies began to appear, offering guided trips through some of the most exciting river rapids in the world. Over time, improved raft designs, better safety gear, and increased interest in outdoor adventure made rafting a popular activity for thrill-seekers and nature lovers alike.
-        </p>
+    <!-- Trip Descriptions Grid -->
+    <section class="trip-descriptions">
+      <h2>Our Most Popular Rafting Trips</h2>
+      <div class="trips-grid">
+        <div class="trip-card">
+          <img src="images/trip1.jpg" alt="Family Fun Float">
+          <h3>Family Fun Float</h3>
+          <p>
+            Perfect for all ages, this gentle trip offers scenic views and mild rapids. Great for families and first-timers who want to enjoy the river at a relaxed pace.
+          </p>
+          <ul>
+            <li>Duration: 2 hours</li>
+            <li>Difficulty: Easy</li>
+            <li>Includes snacks & guide</li>
+          </ul>
+        </div>
+        <div class="trip-card">
+          <img src="images/trip2.jpg" alt="Classic Rapids Adventure">
+          <h3>Classic Rapids Adventure</h3>
+          <p>
+            Our most popular trip! Experience a mix of exciting rapids and calm stretches. Suitable for most ages and skill levels.
+          </p>
+          <ul>
+            <li>Duration: 4 hours</li>
+            <li>Difficulty: Moderate</li>
+            <li>Lunch & photos included</li>
+          </ul>
+        </div>
+        <div class="trip-card">
+          <img src="images/trip3.jpg" alt="Extreme Whitewater Challenge">
+          <h3>Extreme Whitewater Challenge</h3>
+          <p>
+            For the thrill-seekers! Tackle the biggest rapids with our expert guides. Prior rafting experience recommended.
+          </p>
+          <ul>
+            <li>Duration: 5 hours</li>
+            <li>Difficulty: Hard</li>
+            <li>Safety gear provided</li>
+          </ul>
+        </div>
+        <div class="trip-card">
+          <img src="images/trip4.jpg" alt="Sunset Scenic Float">
+          <h3>Sunset Scenic Float</h3>
+          <p>
+            Enjoy a relaxing float with breathtaking sunset views. Perfect for couples, friends, and anyone who loves nature’s beauty.
+          </p>
+          <ul>
+            <li>Duration: 2.5 hours</li>
+            <li>Difficulty: Easy</li>
+            <li>Snacks & guide included</li>
+          </ul>
+        </div>
       </div>
     </section>
 
-    <section class="adventure-awaits">
-      <h2 class="adventure">Adventure Awaits You!</h2>
-      <div class="adventure-gallery">
-        <figure>
-          <img src="images/adv1.jpg" alt="Whitewater Rafting Rapids">
-          <figcaption>Whitewater Rafting Rapids</figcaption>
-        </figure>
-        <figure>
-          <img src="images/adv2.jpg" alt="Scenic Views">
-          <figcaption>Scenic Views</figcaption>
-        </figure>
-        <figure>
-          <img src="images/adv3.jpg" alt="Team Adventures">
-          <figcaption>Team Adventures</figcaption>
-        </figure>
-        <figure>
-          <img src="images/adv4.jpg" alt="Sunset Rafting">
-          <figcaption>Sunset Rafting</figcaption>
-        </figure>
-        <figure>
-          <img src="images/adv5.jpg" alt="Thrilling">
-          <figcaption>Thrilling Rapids</figcaption>
-        </figure>
+    <!-- Trips Table -->
+    <section class="trips-table-section">
+      <h2>All Available Trips</h2>
+      <div class="table-responsive">
+        <table class="trips-table">
+          <thead>
+            <tr>
+              <th>Trip Name</th>
+              <th>Difficulty</th>
+              <th>Duration</th>
+              <th>Price</th>
+              <th>Highlights</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td data-label="Trip Name">Nile Explorer</td>
+              <td data-label="Difficulty">Beginner</td>
+              <td data-label="Duration">Half Day</td>
+              <td data-label="Price">$60</td>
+              <td data-label="Highlights">Gentle rapids, family-friendly, scenic views</td>
+            </tr>
+            <tr>
+              <td>Family Fun Float</td>
+              <td>Easy</td>
+              <td>2 hours</td>
+              <td>$40</td>
+              <td>Snacks, Guide</td>
+            </tr>
+            <tr>
+              <td>Classic Rapids Adventure</td>
+              <td>Moderate</td>
+              <td>4 hours</td>
+              <td>$70</td>
+              <td>Lunch, Photos, Guide</td>
+            </tr>
+            <tr>
+              <td>Extreme Whitewater Challenge</td>
+              <td>Hard</td>
+              <td>5 hours</td>
+              <td>$90</td>
+              <td>Safety Gear, Guide</td>
+            </tr>
+            <tr>
+              <td>Sunset Scenic Float</td>
+              <td>Easy</td>
+              <td>2.5 hours</td>
+              <td>$50</td>
+              <td>Snacks, Guide, Sunset Views</td>
+            </tr>
+            <tr>
+              <td>Team Building Expedition</td>
+              <td>Moderate</td>
+              <td>6 hours</td>
+              <td>$110</td>
+              <td>Lunch, Team Activities, Guide</td>
+            </tr>
+          </tbody>
+        </table>
       </div>
     </section>
   </main>
 
   <footer>
-  <p>&copy; 2025 🌊 Whitewater Rafting Company. All Rights Reserved. 🌊 | Isabirye Elton</p>
-  <div class="socialmedia">
-    <a href="https://facebook.com">
-      <img src="images/facebook.svg" alt="Facebook">
-    </a>
-    <a href="https://twitter.com">
-      <img src="images/twitter-x.svg" alt="Twitter">
-    </a>
-    <a href="https://instagram.com">
-      <img src="images/instagram.svg" alt="Instagram">
-    </a>
-    <a href="github.com">
-      <img src="images/github.svg" alt="GitHub">
-    </a>
-    <a href="https://reddit.com">
-      <img src="images/reddit.svg" alt="reddit">
-    </a>
-    <a href="https://linkedin.com">
-      <img src="images/linkedin.png" alt="LinkedIn">
-    </a>
-  </div>
-</footer>
-
+    <p>&copy; 2025 🌊 Whitewater Rafting Company. All Rights Reserved. 🌊 | Isabirye Elton</p>
+    <nav class="socialmedia" aria-label="Social media links">
+      <a href="https://facebook.com"><img src="images/facebook.svg" alt="Facebook"></a>
+      <a href="https://twitter-x.com"><img src="images/twitter-x.svg" alt="Twitter-x"></a>
+      <a href="https://instagram.com"><img src="images/instagram.svg" alt="Instagram"></a>
+      <a href="https://linkedin.com"><img src="images/linkedin.png" alt="LinkedIn"></a>
+      <a href="https://reddit.com"><img src="images/reddit.svg" alt="Reddit"></a>
+      <a href="https://github.com"><img src="images/github.svg" alt="GitHub"></a>
+    </nav>
+    <p>
+      <a href="images/trips-wireframe.jpg" target="_blank" class="wireframe-link">Trips Page Wireframe</a>
+    </p>
+  </footer>
 </body>
 </html>
